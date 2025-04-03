@@ -1,3 +1,4 @@
+```py
 import os
 import shutil
 import requests
@@ -698,4 +699,4 @@ def main():
                                 return False  # Возвращаем False, если произошла ошибка
 
 if __name__ == "__main__":
-    main()
+    main()```
