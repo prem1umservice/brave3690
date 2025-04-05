@@ -1,6 +1,3 @@
-### Code
-
-```python
 import os
 import shutil
 import requests
@@ -164,7 +161,7 @@ except Exception as e:
     print(f"An error occurred: {str(e)}")
     print("Current URL:", driver.current_url)
 
-path = ["wash.png", "freeze.png", "oven.png", "micro.png", "dish.png", "coffee.png"] # Картинки
+path = ["/Users/egorceban/PycharmProjects/pythonProject/brave3690/wash.png", "/Users/egorceban/PycharmProjects/pythonProject/brave3690/freeze.png", "/Users/egorceban/PycharmProjects/pythonProject/brave3690/oven.png", "micro.png", "dish.png", "coffee.png"] # Картинки
 Wash, Freeze, Oven, Micro, Dish, Coffee = "wash.png", "freeze.png", "oven.png", "micro.png", "dish.png", "coffee.png" # Картинки
 def find_and_click(image_path):
     try:
@@ -178,14 +175,10 @@ def find_and_click(image_path):
         print(f"Ошибка: {e}")
         return False  # Возвращаем False, если произошла ошибка
 
-
 # Основная функция
 def main():
     while True:
         try:
-  """
-  code aims to automate interactions with the screen using Python's pyautogui&Selenium&API library for posting in Marketplace 999.md across various tags
-  """
 
             profile_url = "https://999.md/ru/profile/EgorCeban"
             driver.get(profile_url)
@@ -428,7 +421,7 @@ def main():
                     else:
                         print(f"Кнопка не найдена.")
 
-                except Exception:
+                except Exception:  # 
                     try:
 
                         profile_url = "https://999.md/ru/profile/EgorCeban"
@@ -699,4 +692,5 @@ def main():
                                 return False  # Возвращаем False, если произошла ошибка
 
 if __name__ == "__main__":
-    main()```
+    main()
+##
