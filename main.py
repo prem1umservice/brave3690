@@ -2,7 +2,7 @@
 import pyautogui as pag
 
 # Указываем путь к изображению кнопки
-button_image_path = "/Users/egorceban/PycharmProjects/FB/x.png"
+button_image_path = "/Users/egorceban/PycharmProjects/FB/tri.png"
 
 
 def find_and_click_button(button_path):
