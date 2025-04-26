@@ -1,3 +1,4 @@
+```a
 import os
 import subprocess
 import shutil
@@ -41,4 +42,4 @@ if __name__ == "__main__":
     clone_or_update_repo(repo_url, local_dir)
 
     # Запускаем скрипт
-    run_script(script_path)
+    run_script(script_path)```
