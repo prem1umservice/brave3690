@@ -1,4 +1,4 @@
-```py
+
 import os
 import shutil
 import requests
@@ -726,4 +726,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
